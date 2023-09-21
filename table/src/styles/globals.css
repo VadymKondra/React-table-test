@@ -1,0 +1,28 @@
+table { border-collapse: collapse; }
+
+th {
+    border-bottom: 1px solid rgb(226, 220, 220);
+}
+
+tr { border-bottom: 1px solid rgb(226, 220, 220); }
+
+
+
+.lightText {
+    font-weight:lighter;
+    color: darkgrey;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.criticalWarningText {
+    color: red;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
